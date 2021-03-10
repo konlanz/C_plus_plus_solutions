@@ -1,12 +1,15 @@
-#include < iostream.h >
+#include <iostream>
+using namespace std;
 
-void main()
+ int main()
 {
     int height, base;
     float ans;/*ans may come in fractions*/
-    cout<<"Enter height and base";
-    cin>>height>>base;
-    ans= (1/2)*height*base;
+    cout<<"Enter height\n";
+    cin>>height;
+    cout<<"Enter base\n";
+    cin>>base;
+    ans= (0.5)*height*base;
     /* mathematical formula*/
-    cout<<"Area if triangle is"<<ans;
+    cout<<"Area if triangle is   "<<ans;
 }
