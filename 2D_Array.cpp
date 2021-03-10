@@ -28,7 +28,7 @@ int main ()
     return 0;
 }
 
-Output:
+Output::
 Enter the number of rows
 2
 Enter the number of columns
