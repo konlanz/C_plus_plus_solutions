@@ -3,6 +3,7 @@ using namespace std;
 int main()
 {
     int a[10],i,n,m,c,l,u;
+    int binary(int a[],int n,int m,int l,int u);
     cout<<"Enter the size of an array: ";
     cin>>n;
     cout<<"Enter the elements of the array: " ;
@@ -21,7 +22,7 @@ int main()
 
 /*Binary search will search element at middle, if element is not found and if element to be searched is less than middle then it will search only in lower part and if greater then in upper part */
 
-int binary(int a[],int n,int m,int l,int u)
+ binary(int a[],int n,int m,int l,int u)
 {
     int mid,c=0;
     if(l <= u)
