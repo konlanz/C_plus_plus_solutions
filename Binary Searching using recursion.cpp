@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 int main()
 {
     int a[10],i,n,m,c,l,u;
@@ -24,7 +24,7 @@ int main()
 int binary(int a[],int n,int m,int l,int u)
 {
     int mid,c=0;
-    if(l < = u)
+    if(l <= u)
         {
             mid=(l+u)/2;
             if(m==a[mid])
@@ -41,11 +41,3 @@ int binary(int a[],int n,int m,int l,int u)
     else
         return c;
 }
-
-Output:
-
-Enter the size of an array:4
-Enter the elements of the array:5 3 6 2
-Enter the number to be search:3
-Number is found.
-Number is found.
