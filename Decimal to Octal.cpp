@@ -1,10 +1,10 @@
-#include <iostream.h>
-
-void main()
+#include <iostream>
+using namespace std;
+int main()
 {
     long num, decimal_num, remainder, base = 1, octal = 0;
     cout<<"Enter a decimal integer \n";
-    cin>>amp num;
+    cin>>num;
     decimal_num = num;
     while (num > 0)
         {
@@ -14,5 +14,5 @@ void main()
             base = base * 10;
         }
     cout<<"Input number is ="<<decimal_num<<"\n";
-    cout<<"Its octal equivalent is ="<<Octal<<"\n";
+    cout<<"Its octal equivalent is ="<<octal<<"\n";
 }
