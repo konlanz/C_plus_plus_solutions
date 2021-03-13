@@ -1,5 +1,5 @@
-#include < iostream.h>
-
+#include <iostream>
+using namespace std;
 int main()
 {
     long int binaryval, hexadecimalval = 0, i = 1, remainder;

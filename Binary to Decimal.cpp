@@ -1,10 +1,11 @@
-#include < iostream.h >
+#include <iostream>
+using namespace std;
 
-void main()
+int main()
 {
     int num, binary_val, decimal_val = 0, base = 1, rem;
     cout<<"Enter a binary number(1s and 0s) \n";
-    cin>>amp num;
+    cin>>num;
     binary_val = num;
     while (num > 0)
         {

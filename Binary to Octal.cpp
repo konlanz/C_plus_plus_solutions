@@ -1,5 +1,5 @@
-#include < iostream.h>
-
+#include <iostream>
+using namespace std;
 int main()
 {
     long int binarynum, octalnum = 0, j = 1, remainder;
