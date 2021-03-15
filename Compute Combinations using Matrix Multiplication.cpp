@@ -1,6 +1,3 @@
-/*
- * C++ Program to Compute Combinations using Matrix Multiplication
- */
 #include<iostream>
 #define ll long long
 using namespace std;
@@ -117,14 +114,3 @@ int main()
         }
 }
 
-/*
-Enter total number of objects:(0 to exit) 10
-Enter number of objects to be chosen: 2
-45
-Enter total number of objects:(0 to exit) 50
-Enter number of objects to be chosen: 17
-9847379391150
-Enter total number of objects:(0 to exit) 19
-Enter number of objects to be chosen: 8
-75582
-Enter total number of objects:(0 to exit) 0
