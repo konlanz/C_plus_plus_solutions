@@ -1,4 +1,3 @@
-Quadratic Equation
 
 #include <math.h>
 #include <iostream>
