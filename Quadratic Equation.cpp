@@ -70,7 +70,7 @@ void wierdGetch();
 
 int main(int argc, char *argv[]){
 cout << "@-Quadratic Equation Solver\n"
-     << " @-Karlan Mitchell karlanmitchell-at-comcast-dot-net\n"
+     << " @-Konlan Mikpekoah\n"
      << " @-For Credits/Help enter 0 for A\n";
 
 double a,b,c;
