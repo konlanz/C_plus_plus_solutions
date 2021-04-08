@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 int a[50];
 void merge(int,int,int);
 void merge_sort(int low,int high)
@@ -55,7 +56,7 @@ int main()
 {
  int num,i;
 
-cout<<"********************************************************************************/n";
+cout<<"********************************************************************************"<<endl;
  cout<<"                             MERGE SORT PROGRAM"<<endl;
 
 cout<<"********************************************************************************"<<endl;
