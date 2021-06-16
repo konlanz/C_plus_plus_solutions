@@ -11,7 +11,7 @@ int main()
     double x[100],y[100],z;         /*DECLARATION OF ARRAY */
     int i,n,k,j,t;
     
-    printf("\n     Computational Techniques - J. S. CHITODE");
+    printf("\n     Computational Techniques - Konlan Mikpekoah");
     printf("\n              BINARY SEARCH METHOD\n");
     printf("\n\nEnter the total number of elements "
            "in the array(max 100) = ");
