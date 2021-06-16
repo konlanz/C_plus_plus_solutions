@@ -56,4 +56,4 @@ The lines doesn't intersect
 
 The Equation of the 1st line is : (3)x+(7)y+(-59) = 0
 The Equation of the 2nd line is : (-8)x+(1)y+(56) = 0
-The lines intersect
+The lines intersect*/
